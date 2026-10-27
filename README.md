@@ -29,6 +29,8 @@ Open http://localhost:3000. The admin area is at http://localhost:3000/admin.
 | `SESSION_SECRET` | Long random string used to sign the admin session |
 | `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS` | Gmail SMTP with an app password (optional) |
 | `NOTIFY_EMAIL` | Where form alerts are sent (optional) |
+| `SITE_URL` | Public address used in link previews (optional, Vercel fills it automatically) |
+| `ALLOW_INDEXING` | Set to `true` at launch so search engines can index the site. Anything else hides the site from search engines |
 
 ## Scripts
 
